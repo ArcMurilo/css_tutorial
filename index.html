@@ -1,41 +1,170 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="css/style.css" media="all">
-  <title>CSS Tutorial</title>
+  <meta http-equiv="Content Type" content="text/html" charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
+  <title>Mr. Hurley | personal blog</title>
 </head>
 <body>
-  <!-- minha primeira pagina -->
-  <h3>
-    Página principal.
-  </h3>
+  <header id="site_head">
+    <div class="header_cont">
+      <!-- useful to create the 960 px limit -->
+      <h1><a href="#">mr. hurley</a></h1>
+      <nav class="head_nav">
+        <ul>
+          <li class="rss"><a href="">Subscribe</a></li>
+          <li class="twitter"><a href="#">Follow Me</a></li>
+          <li class="home"><a href="#">Home</a></li>
+          <li><a href="#">About Me</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-  <p>&nbsp;</p>
-  <p>
-    <strong>Lorem ipsum</strong> dolor sit amet, consectetur adipiscing elit.
-    Phasellus vulputate turpis id congue lacinia.
-    Fusce nec sollicitudin magna. Sed mollis congue lacus,
-    non dapibus sem auctor sit amet. Quisque eleifend lacus
-    ut interdum finibus. Morbi iaculis, nisl eu elementum
-    ultrices, purus justo mattis massa, ac aliquet sem justo quis augue.
-    Integer sapien odio, aliquam ac leo vitae, condimentum posuere leo.
-    Quisque quis nibh velit. Donec porta lacus in nisl interdum,
-    scelerisque faucibus erat efficitur. In ornare diam non sem
-    semper dignissim. Donec eu urna sed neque placerat tincidunt vitae
-    ut urna. Cras sed accumsan justo, ac feugiat tortor. In molestie
-    nisl risus, ut lacinia sapien vehicula eget. Integer nulla turpis,
-    tristique consequat hendrerit et, efficitur sit amet nisl.
-  </p>
+  <div id="main_content">
+    <!-- main conteiner -->
 
-  <p>
-    Sed fermentum a ipsum id pretium. Phasellus a leo lobortis nisl
-    semper pretium ut et turpis. Sed consectetur laoreet eros, eu
-    finibus lorem mattis in. Vestibulum nec volutpat sem. Maecenas
-    laoreet consequat augue, non vulputate ipsum dignissim ac. Vestibulum
-    consectetur dolor ut dui consectetur, euismod condimentum diam ullamcorper.
-    Nam feugiat semper libero, <em>tempor aliquet mauris sodales nec</em>.
-  </p>
+    <section id="last_posts">
+      <!-- last posts -->
+      <header class="section_title">
+        <h3>Last posts</h3>
+      </header>
+
+      <div class="single_post">
+        <article>
+          <div class="float">
+            <figure>
+              <img src="img/test3.jpg" alt="test">
+            </figure>
+            <footer>
+              <ul>
+                <li>
+                  <timev datetime="02-05-2015" pubdate>02 de Maio</time>
+                </li>
+                <li>Written by <a href="">Mr. Hurley</a></li>
+                <li>posted in <a href="">Web Design</a></li>
+                <li><a href="">Comments (15)</a></li>
+              </ul>
+            </footer>
+
+          </div>
+
+          <div class="art">
+            <header class="post_head">
+              <h2><a href="#">Options To Consider When Your Client Is Driving You Mad</a></h2>
+              <p>I guess I would be speaking on your behalf when I say that I feel so grateful for my clients. After all, they put their trust in me and gladly compensate me for my efforts. I guess I would be...</p>
+              <span class="more"><a href="#">Read more</a></span>
+            </header>
+          </div>
+        </article>
+      </div>
+
+      <div class="single_post">
+        <article>
+          <div class="float">
+            <figure>
+              <img src="img/test1.jpg" alt="test">
+            </figure>
+            <footer>
+              <ul>
+                <li>
+                  <timev datetime="02-05-2015" pubdate>02 de Maio</time>
+                </li>
+                <li>Written by <a href="">Mr. Hurley</a></li>
+                <li>posted in <a href="">Web Design</a></li>
+                <li><a href="">Comments (15)</a></li>
+              </ul>
+            </footer>
+
+          </div>
+
+      <div class="single_post">
+				<article>
+				<div class="float">
+					<figure>
+						<img src="images/test4.jpg" alt="test" />
+					</figure>
+					<footer>
+						<ul>
+							<li><time datetime="2010-04-14" pubdate>April 14, 2010</time></li>
+							<li>written by <a href="#">Mr. Hurley</a></li>
+							<li>posted in <a href="#">Web Design</a>, <a href="#">Article</a></li>
+							<li><a href="#">Comments (15)</a></li>
+						</ul>
+					</footer>
+				</div>
+
+				<div class="art">
+					<header class="post_head">
+						<h2><a href="#">How To Design A Better Blog? Break Down The Rules</a></h2>
+					</header>
+					<p>Once upon a time in World Wide Web a private and personal diary, where recording daily activities and reflections, called Weblog. </p>
+					<span class="more"><a href="#">Read more</a></span>
+				</div>
+				</article>
+			</div>
+
+			<div class="single_post">
+				<article>
+				<div class="float">
+					<figure>
+						<img src="images/test2.jpg" alt="test" />
+					</figure>
+					<footer>
+						<ul>
+							<li><time datetime="2010-04-14" pubdate>April 14, 2010</time></li>
+							<li>written by <address><a href="#">Mr. Hurley</a></address></li>
+							<li>posted in <a href="#">Web Design</a>, <a href="#">Article</a></li>
+							<li><a href="#">Comments (15)</a></li>
+						</ul>
+					</footer>
+				</div>
+
+				<div class="art">
+					<header class="post_head">
+						<h2><a href="#">Options To Consider When Your Client Is Driving You Mad</a></h2>
+					</header>
+					<p>I guess I would be speaking on your behalf when I say that I feel so grateful for my clients.</p>
+					<span class="more"><a href="#">Read more</a></span>
+				</div>
+				</article>
+			</div>
+
+    </section>
+
+    <div class="left_cont">
+      <section id="archive">
+        <!-- list old posts -->
+      </section>
+      <aside class="friends">
+      <!-- blogroll -->
+      </aside>
+    </div>
+
+    <aside>
+      <section class="about">
+        <!-- personal info -->
+      </section>
+
+      <nav>
+        <!-- links -->
+      </nav>
+
+      <section class="contact">
+        <!-- contact detail -->
+      </section>
+    </aside>
+
+    <footer class="bottom">
+      <!-- footer info -->
+    </footer>
+
+
+
+  </div>
+
 
 </body>
 </html>
