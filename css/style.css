@@ -4,7 +4,7 @@
 
 /* Reset for some browsers */
 
-body, div, h1, h2, h3, p, ul, ol, li, img, header, section, aside, footer, button {
+body, div, h1, h2, h3, p, ul, ol, li, img, header, section, aside, footer, button, figure{
 	margin: 0; padding: 0; border: 0; list-style: none;
 }
 
@@ -36,7 +36,7 @@ h2 {
 }
 
 body {
-  backgroud: #f6f6ee url(../img/bck.jpg);
+  background: #f6f6ee url(../img/bck.jpg);
   font-family: "Trebuchet MS", "Helvetica Neue", sans-serif;
   font-size: 12px;
 }
@@ -98,7 +98,7 @@ header#site_head {
 	nav.head_nav ul li.home a {
 		background: #4f1d1e;
 		-moz-border-radius: 10px;
-		khtml-border-radius: 10px;
+		-khtml-border-radius: 10px;
 		-webkit-border-radius: 10px;
 		border-radius: 10px;
 	}
@@ -143,7 +143,7 @@ header#site_head {
 
 	nav.head_nav ul li.rss a:hover, nav.head_nav ul li.twitter a:hover{
 		-moz-border-radius: 0;
-		khtml-border-radius: 0;
+		-khtml-border-radius: 0;
 		-webkit-border-radius: 0;
 		border-radius: 0;
 		-moz-box-shadow: none;
@@ -152,3 +152,99 @@ header#site_head {
 		box-shadow: none;
 		color: #f6f6ee;
 	}
+
+/* Main container */
+
+#main_content {
+	width: 960px;
+	margin: 0 auto;
+	padding-top: 15px;
+}
+
+	/* Last Post section*/
+
+	.section_title {
+		clear: both;
+	}
+
+		.section_title h3 {
+			background: url(../img/line.png) no-repeat center center;
+			text-align: center;
+			font-size: 34px;
+			margin: 10px 0px 25px 0px;
+			color: #c9c9c0;
+			text-shadow: 1px 1px 0px #fff;
+		}
+
+	div.single_post {
+		float: left;
+		width: 447px;
+		height: 345px;
+		margin: 0 16px 35px 16px;
+	}
+
+		img {
+			border: 5px solid rgba(255,255,255,0.75);
+			-moz-border-radius: 5px;
+			-khtml-border-radius: 5px;
+			-webkit-border-radius: 5px;
+			border-radius: 5px;
+			-moz-box-shadow: 0px 0px 5px #c6c6bf;
+			-khtml-box-shadow: 0px 0px 5px #c6c6bf;
+			-webkit-box-shadow: 0px 0px 5px #c6c6bf;
+			box-shadow: 0px 0px 5px #c6c6bf;
+		}
+
+		div.single_post footer {
+			color: #2f2f28;
+			text-align: right;
+			font-size: 10px;
+		}
+
+		div.single_post ul {
+			margin-top: 12px;
+			border-right: 3px solid #dbdbd4;
+		}
+
+		div.single_post ul li {
+			padding: 1px 13px 1px 0;
+		}
+
+		div.single_post ul li a {
+			font-weight: bold;
+		}
+
+		div.art {
+			width: 250px;
+			display: block;
+			background: rgba(255,255,255,0.6);
+			border: 1px solid rgba(255,255,255,1);
+			-moz-border-radius: 10px;
+			-khtml-border-radius: 10px;
+			-webkit-border-radius: 10px;
+			border-radius: 10px;
+			-moz-box-shadow: 0px 0px 5px #c6c6bf;
+			-khtml-box-shadow: 0px 0px 5px #c6c6bf;
+			-webkit-box-shadow: 0px 0px 5px #c6c6bf;
+			box-shadow: 0px 0px 5px #c6c6bf;
+			margin-left: 15px;
+			overflow: auto;
+			float: left;
+		}
+
+		div.art:hover {
+			background: rgba(255,255,255,1);
+		}
+
+		div.single_post header h2 {
+			border-bottom: 1px solid #dbdbd4;
+			margin: 15px;
+			padding-bottom: 15px;
+			text-align: center;
+		}
+
+		div.single_post p {
+			padding: 0 15px;
+			font-size: 14px;
+			line-height: 20px;
+		}
