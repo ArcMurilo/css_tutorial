@@ -1,0 +1,28 @@
+html, body, section, header, h1, h2, h3, nav, ul, li, a, div, article, figure,
+img, p, footer {
+  margin: 0; padding: 0;
+}
+
+header, footer, article, section, nav, hgroup, figure {
+  display: block;
+}
+
+article .line{
+  background-color: #15242a;
+  border-bottom-color: #204656;
+  margin: 1.3em 0;
+}
+
+footer .line {
+  margin: 2.0em;
+}
+
+nav {
+  background: url(../img/gradient_light.jpg) repeat-x 50% 50% #f8f8f8;
+  padding: 0 5px;
+  position: absolute;
+  right: 0;
+  top: 4em;
+
+  border: 1px solid #fcfcfc;  
+}
